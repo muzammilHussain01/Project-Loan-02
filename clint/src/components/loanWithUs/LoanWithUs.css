@@ -1,0 +1,23 @@
+.loanCategries .loan-item {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.loanCategries .loan-item:hover {
+  cursor: pointer;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Apply shadow on hover */
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.cardHover:hover {
+  transition: all 5 ease-in-out;
+
+  transform: scale(1.02); /* Slightly scale the whole div */
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2); /* Increased box shadow on hover */
+}
+
+.cardHover:focus {
+  outline: none; /* Remove default outline */
+  border: 2px solid #ffeb3b; /* Custom focus border */
+}

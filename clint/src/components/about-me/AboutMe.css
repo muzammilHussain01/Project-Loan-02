@@ -1,0 +1,32 @@
+.about-me {
+  padding: 20px; /* Padding around the content */
+  font-family: Arial, sans-serif; /* Font for consistent styling */
+}
+
+.profile-picture {
+  width: 150px; /* Set the size of the profile picture */
+  height: 150px; /* Set the height of the profile picture */
+  border-radius: 50%; /* Make it circular */
+  margin-bottom: 20px; /* Add space below the picture */
+}
+
+h1,
+h2 {
+  color: #333; /* Dark color for headings */
+}
+
+p {
+  color: #555; /* Slightly lighter color for text */
+}
+
+ul {
+  list-style-type: disc; /* Bullet points for lists */
+  margin-left: 20px; /* Indentation for list items */
+}
+
+.about-me a {
+  color: #3498db; /* Color for links */
+}
+.fontSize {
+  font-size: medium;
+}

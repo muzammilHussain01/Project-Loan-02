@@ -1,0 +1,62 @@
+/* body {
+  background: url("../img/—Pngtree—vector\ icon\ world\ bank\ background_7512883.png")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  color: black;
+  background: rgba(244, 197, 197, 0.75);
+}
+
+.form-container {
+  background: rgba(245, 221, 221, 0.75);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 2rem;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: black;
+}
+
+.form-group label {
+  color: black;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.1);
+  color: orange;
+  border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.2);
+  color: orange;
+  border: 1px solid #f8f9fa;
+  box-shadow: none;
+}
+
+.form-button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+
+.form-button-primary {
+  background: #007bff;
+  border: none;
+}
+
+.form-button-secondary {
+  background: #6c757d;
+  border: none;
+}
+
+.form-button-primary:hover,
+.form-button-secondary:hover {
+  opacity: 0.8;
+} */

@@ -1,0 +1,55 @@
+#error-page {
+  text-align: center;
+  padding: 50px; /* Provide some padding for centering content */
+  color: #333; /* Default text color */
+  background-color: #f8f8f8; /* Light background color */
+  font-family: "Roboto", sans-serif; /* Use a modern font */
+}
+
+#error-page h1 {
+  font-size: 3em; /* Large font for the heading */
+  color: #e74c3c; /* Red color for error emphasis */
+  margin-bottom: 20px; /* Add some space below the heading */
+  animation: shake 0.3s; /* Apply animation to attract attention */
+}
+
+#error-page p {
+  font-size: 1.2em; /* Slightly larger font for better readability */
+  margin: 10px 0; /* Add space between paragraphs */
+}
+
+#error-page i {
+  color: #7f8c8d; /* Gray color for italics text */
+  font-style: italic; /* Apply italic style */
+}
+
+/* Animation for shaking effect on the heading */
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  80% {
+    transform: translateX(-10px);
+  }
+  40%,
+  60% {
+    transform: translateX(10px);
+  }
+}
+
+/* Responsive design: smaller padding and text for mobile devices */
+@media (max-width: 600px) {
+  #error-page {
+    padding: 30px; /* Reduce padding for smaller screens */
+  }
+
+  #error-page h1 {
+    font-size: 2em; /* Smaller font size for smaller screens */
+  }
+
+  #error-page p {
+    font-size: 1em; /* Smaller font size for smaller screens */
+  }
+}
